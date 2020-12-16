@@ -1,13 +1,11 @@
 
 /* BASIC */
 
-html {
-    background-color: #56baed;
-  }
+
   
   body {
     font-family: "Poppins", sans-serif;
-    height: 100vh;
+    height: auto;
   }
   
   a {
@@ -16,17 +14,6 @@ html {
     text-decoration: none;
     font-weight: 400;
   }
-  
-  h2 {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
-    display:inline-block;
-    margin: 40px 8px 10px 8px; 
-    color: #cccccc;
-  }
-  
   
   
   /* STRUCTURE */
@@ -265,3 +252,62 @@ html {
     width:60%;
   }
   
+
+.dashboardMain {
+  margin-top: 80px;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+
+}
+
+
+.mentee-detail-banner-row {
+  background: #eef8ff;
+  padding: 3rem 0;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+
+.mentee-detail-banner-row .mentee-section-col {
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 2rem;
+  min-width: max-content;
+  height: 230px;
+}
+
+.flex-column {
+  -ms-flex-direction: column!important;
+  flex-direction: column!important;
+}
+
+.d-flex {
+  display: -ms-flexbox!important;
+  display: flex!important;
+}
+
+.col-2 {
+  -ms-flex: 0 0 16.666667%;
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
+.mentee-detail-banner-row .mentee-section-col .section-title {
+  color: #4b4f52;
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+
+
+.col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}

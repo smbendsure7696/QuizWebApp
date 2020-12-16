@@ -4,55 +4,47 @@ import './quiz.css';
 export default class Quiz extends react.Component
 {
     render(){
-        return(
-            <div class="d-flex" id="wrapper">
+        return(        
+                    <div class="container">
+                        <div class="row quizMain">
+                                <div class="card w-70 ">
+                                    <div class="card-body quizCard">
+                                        <h2 class="card-title">Quiz on Title</h2>
+                                        <p className="quizTimer">00:00</p>
+                                        <p class="card-text">Questions 1 to 10</p>
+                                        <p class="card-text">QUESTION</p>    
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" />
+                                            <label class="custom-control-label" for="customRadio1">Toggle this custom radio</label>
+                                        </div>
 
-                <div id="page-content-wrapper" > 
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" />
+                                            <label class="custom-control-label" for="customRadio2">Toggle this custom radio</label>
+                                        </div>
 
-                    
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-12">
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input" />
+                                            <label class="custom-control-label" for="customRadio3">Toggle this custom radio</label>
+                                        </div>    
 
-                            
-
-                        
-                            </div>
-                        </div>
-                        
-                        <div class="row">
-                            <div class="col-lg-12">
-                            
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                            
-                            </div>
-                        </div>
-                        <div class="quizefooter">
-                            <div class="row">
-                            <div class="col-lg-9">
-                                <Link to="/">
-                                <button type="button" class="btn btn-primary btn-sm buttonback btn mt-3 btn-block rounded-pill text-uppercase tab">Previous</button>
-                                </Link>
-                                <Link to="/">
-                                <button type="button" class="btn btn-primary btn-sm buttonnext btn mt-3 btn-block rounded-pill text-uppercase tab">Next</button>
-                                </Link>
-                            </div>
-                            <div class="col-lg-3">
-                                <Link to="/">
-                                <button type="button" class="btn btn-primary btn-sm buttonskip btn mt-3 btn-block rounded-pill text-uppercase tab">Skip</button>
-                                </Link>
-                            </div>
-                            </div>
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input" />
+                                            <label class="custom-control-label" for="customRadio4">Toggle this custom radio</label>
+                                        </div> 
+                                        
+                                    </div>
+                                   
+                                </div> 
+                                <div className="quizBtn">
+                                    <Link to="/" class="btn btn-primary">Next</Link> 
+                                    <Link to="/" class="btn btn-primary">Prev</Link> 
+                                    <Link to="/" class="btn btn-primary">Submit</Link>    
+                                </div>
                         </div>
                         
                     </div>            
-                                        
-                </div>
-
-            </div>
+                                    
         )
     }
 }

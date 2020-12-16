@@ -9,7 +9,7 @@ export default class Login extends react.Component
         this.state = {
             username:"",
             password:"",
-            success : true,
+            success : "",
             currUname : ""
         }
         this.onchange = this.onchange.bind(this);
@@ -32,7 +32,7 @@ export default class Login extends react.Component
 
         if(uname.trim()!=="" && pass.trim()!=="")
         {
-            if(uname==="Ratnesh" && pass==="rm")
+            if(uname==="Shubham" && pass==="gs")
                 this.setState({
                     success:true,
                     username:uname,

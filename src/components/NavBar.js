@@ -32,7 +32,7 @@ export default class NavBar extends React.Component
 								
 									<ul className="dropdown-menu">
 										<li>
-											<Link className="dropdown-item" to="/quiz">
+											<Link className="dropdown-item" to="/quiz" onClick = {(e) => this.props.quizLoad()}>
 												Arithmetic
 											</Link>
 										</li>
