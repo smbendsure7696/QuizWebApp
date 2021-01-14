@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/QuizPortal/static/css/main.87d26a05.chunk.css",
-    "main.js": "/QuizPortal/static/js/main.e45766d2.chunk.js",
-    "main.js.map": "/QuizPortal/static/js/main.e45766d2.chunk.js.map",
-    "runtime-main.js": "/QuizPortal/static/js/runtime-main.5d0f7404.js",
-    "runtime-main.js.map": "/QuizPortal/static/js/runtime-main.5d0f7404.js.map",
-    "static/js/2.450c21d5.chunk.js": "/QuizPortal/static/js/2.450c21d5.chunk.js",
-    "static/js/2.450c21d5.chunk.js.map": "/QuizPortal/static/js/2.450c21d5.chunk.js.map",
-    "static/js/3.c43ce415.chunk.js": "/QuizPortal/static/js/3.c43ce415.chunk.js",
-    "static/js/3.c43ce415.chunk.js.map": "/QuizPortal/static/js/3.c43ce415.chunk.js.map",
-    "index.html": "/QuizPortal/index.html",
-    "static/css/main.87d26a05.chunk.css.map": "/QuizPortal/static/css/main.87d26a05.chunk.css.map",
-    "static/js/2.450c21d5.chunk.js.LICENSE.txt": "/QuizPortal/static/js/2.450c21d5.chunk.js.LICENSE.txt"
+    "main.css": "/QuizWebApp/static/css/main.87d26a05.chunk.css",
+    "main.js": "/QuizWebApp/static/js/main.e45766d2.chunk.js",
+    "main.js.map": "/QuizWebApp/static/js/main.e45766d2.chunk.js.map",
+    "runtime-main.js": "/QuizWebApp/static/js/runtime-main.6d0029f3.js",
+    "runtime-main.js.map": "/QuizWebApp/static/js/runtime-main.6d0029f3.js.map",
+    "static/js/2.450c21d5.chunk.js": "/QuizWebApp/static/js/2.450c21d5.chunk.js",
+    "static/js/2.450c21d5.chunk.js.map": "/QuizWebApp/static/js/2.450c21d5.chunk.js.map",
+    "static/js/3.c43ce415.chunk.js": "/QuizWebApp/static/js/3.c43ce415.chunk.js",
+    "static/js/3.c43ce415.chunk.js.map": "/QuizWebApp/static/js/3.c43ce415.chunk.js.map",
+    "index.html": "/QuizWebApp/index.html",
+    "static/css/main.87d26a05.chunk.css.map": "/QuizWebApp/static/css/main.87d26a05.chunk.css.map",
+    "static/js/2.450c21d5.chunk.js.LICENSE.txt": "/QuizWebApp/static/js/2.450c21d5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5d0f7404.js",
+    "static/js/runtime-main.6d0029f3.js",
     "static/js/2.450c21d5.chunk.js",
     "static/css/main.87d26a05.chunk.css",
     "static/js/main.e45766d2.chunk.js"
